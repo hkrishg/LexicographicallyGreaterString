@@ -43,7 +43,7 @@ class Main {
         Arrays.sort(num, j, n);
         
       }
-    return Arrays.toString(num);
+    return Arrays.toString(num).replaceAll("\\[|\\]|,|\\s", "");
     
   }
 
